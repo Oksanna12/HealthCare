@@ -12,7 +12,7 @@ import About from "./pages/About/About";
 import Services from "./pages/Services/Services";
 import Contacts from "./pages/Contacts/Contacts";
 import SignUp from "./pages/SignUp/SignUp";
-import AuthDetails from "./components/Auth/AuthDetails";
+import AuthDetails from "./components/auth/AuthDetails";
 import FullInfo from "./components/Cards/FullInfo";
 import AppContext from "./context";
 // import { auth } from "./firebase";
@@ -61,6 +61,6 @@ function App() {
       </main>
     </div>
   );
-}
+
 
 export default App;
